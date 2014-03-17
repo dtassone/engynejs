@@ -1,0 +1,10 @@
+{
+    "browser" : "phantomjs"
+    , "screenshotFailedTest": true
+    , "seleniumJarPath": ".\\resources\\selenium-server-standalone-2.40.0.jar"
+    , "phantomExecutable": ".\\resources\\phantomjs.exe"
+    , "seleniumPort": 4444
+
+    ,"screenshotsDirectory" :"./screenshots/"
+
+}

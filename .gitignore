@@ -1,0 +1,28 @@
+# IntelliJ IDEA Files
+.idea
+*.iml
+*.iws
+
+# Maven Files
+target
+
+# HTML / Grunt Files
+output
+.temp
+*-min.js
+*-min.js.map
+*-min.css
+browserStackTest.js
+optimised-modules.json
+
+# Dependencies
+dependencies.json
+
+# NPM Files
+node_modules
+*.tgz
+npm-debug.log
+
+screenshots
+resources
+

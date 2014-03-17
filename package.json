@@ -1,0 +1,34 @@
+{
+  "name": "am-webdriver",
+  "description": "Webdriver built on selenium webdriver and chai method chaining.",
+  "preferGlobal": false,
+  "author": "Execution team",
+  "contributors": [
+    {
+      "name": "Execution Team",
+      "email": "MIBAgileMarkets_Execution_Dev@rbs.com"
+    }
+  ],
+  "version": "0.0.2",
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@stash.dts.fm.rbsgrp.net/amfx/am-webdriver.git"
+  },
+  "dependencies": {
+    "chai": "1.9.0",
+    "mocha": "~1.17.1",
+    "mkdirp": "~0.3.5",
+    "selenium-webdriver": "~2.39.0",
+    "browserstack-webdriver": "~2.39.2"
+  },
+  "engines": {
+    "node": ">= 0.8.x"
+  },
+  "_zambezi": {
+    "type": "tool"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-jshint": "~0.7.2"
+  }
+}
