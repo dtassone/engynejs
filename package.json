@@ -1,18 +1,12 @@
 {
-  "name": "am-webdriver",
-  "description": "Webdriver built on selenium webdriver and chai method chaining.",
+  "name": "engyne-webdriver",
+  "description": "Fluent Webdriver built using selenium webdriver and chai utils.",
   "preferGlobal": false,
-  "author": "Execution team",
-  "contributors": [
-    {
-      "name": "Execution Team",
-      "email": "MIBAgileMarkets_Execution_Dev@rbs.com"
-    }
-  ],
-  "version": "0.0.2",
+  "author": "Damien Tassone",
+  "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "ssh://git@stash.dts.fm.rbsgrp.net/amfx/am-webdriver.git"
+    "url": "git@github.com:dtassone/engynejs.git"
   },
   "dependencies": {
     "chai": "1.9.0",
@@ -23,9 +17,6 @@
   },
   "engines": {
     "node": ">= 0.8.x"
-  },
-  "_zambezi": {
-    "type": "tool"
   },
   "devDependencies": {
     "grunt": "~0.4.2",
