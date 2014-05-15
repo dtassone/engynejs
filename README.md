@@ -1,7 +1,7 @@
 engynejs
 ========
 
-##am-webdriver is a fluent api built to create acceptance tests.
+Fluent api built to create acceptance tests.
 
 It is based on selenium-webdriver and execute every tasks in the control flows.
 
