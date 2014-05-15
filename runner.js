@@ -22,6 +22,7 @@ function Runner(opts, tests){
 
     this.loadTests(tests);
 
+    return this;
 }
 Runner.prototype._startSeleniumServer = function(opts){
     var Server;
@@ -65,6 +66,10 @@ Runner.prototype.loadTests = function(tests){
     }
 
     return this;
+};
+
+Runner.setConfig = function(conf){
+    return Runner(conf);
 };
 
 module.exports = Runner;
