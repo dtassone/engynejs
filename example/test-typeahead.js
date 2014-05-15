@@ -38,7 +38,7 @@ describe('Market Rates App', function() {
         page.open("http://lonmw20188.fm.rbsgrp.net:8123/applications/platform/shell/index.html?debug=true#/execution/exec-market-rates-app")
             .wait('input.instrument-selector-search')
             .click('input.instrument-selector-search')
-            .title.should.be("Market Rates - Agile Markets - RBS")
+            .title.should.equal("Market Rates - Agile Markets - RBS")
             .then(done);
     });
 
