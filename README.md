@@ -27,8 +27,8 @@ The Runner object allows to configure the selenium server and the selenium webdr
 
     var conf = {
         "browser" : "chrome"
-        , "seleniumJarPath": "c:\\work\\zambezi\\resources\\selenium-server-standalone-2.40.0.jar"
-        , "phantomExecutable": "c:\\work\\zambezi\\resources\\phantomjs.exe"
+        , "seleniumJarPath": "c:\\...\\resources\\selenium-server-standalone-2.40.0.jar"
+        , "phantomExecutable": "c:\\...\\resources\\phantomjs.exe"
         , "screenshotFailedTest": true
     };
 
